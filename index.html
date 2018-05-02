@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Contaminación</title>
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/theme.app4.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ 
+  <!--grupo JavaScript-->
+  <script src ="js/jquery-1.11.2.min.js"></script>
+  <script src ="js/jquery.mobile-1.4.5.min.js"></script>
+  <!--<script src ="js/acciones.js" type= "text/javascript"></script>-->
+ 
+  <script src ="phonegap.js"></script><!--necesario*/-->
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+ </head>
+
+<body onLoad="MM_preloadImages('imagenes/conta2.jpeg')">
+
+ <div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Contaminación</h1>
+  </div> 
+  <div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Definicion</h2>
+       <p>¿Que es la contaminacion?</p> 
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Tipos de Contaminacion</h2>
+       <p>Se muestra los tipos de contaminacion que existen</p>  
+      </a>      
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Consecuencias</h2>
+       <p>Demostracion de las consecuencias con enfoque al calentamiento</p>  
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Reciclaje</h2>
+       <p>¿Que es y como se clasifica el reciclaje?</p> 
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Medidas</h2>
+       <p>5 Medidas que puedes emplear para combatir la contaminacion en tu comunidad</p> 
+      </a>      
+     </li>      
+    </ul>
+  </div>
+  <div dara-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/MUNDO.png" width="46" height="46">
+   </div>
+
+   <div>
+    <h4>Aplicación Cuatro</h4>
+    <h4>Andrea Trujillo Machorro</h4>
+   </div>
+  </div>
+</div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>¿Que es la contaminación?</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>Contaminación</h2>
+    <p>La contaminación es la introducción de sustancias u otros elementos físicos en un medio que provocan que éste sea inseguro o no apto para su uso.1​ El medio puede ser un ecosistema, un medio físico o un ser vivo. El contaminante puede ser una sustancia química, energía (como sonido, calor, luz o radiactividad).<a href="http://www.phsserkonten.com/sanidad-ambiental/contaminacion-ambiental/" target="_self">Mas Información</a>
+    </p>
+      
+     
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/conta2.jpeg',1)"><img src="imagenes/conta1.jpg"></a> </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/MUNDO.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Cuatro, ATM</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Tipos de Contaminación</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>Principales Contaminantes</h2>
+    <img src="imagenes/conta2.jpg" width="60%" height="60%" alt=""/> 
+    
+    <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>¡Contaminación Atmosférica!</h1>
+    <div>
+     <p>Es el tipo de contaminación que surge de la liberación de partículas de sustancias químicas a la atmósfera. También conocida como polución, es el tipo de contaminación que afecta a través del aire. Uno de los contaminantes más conocidos en este sentido son el CO2, el metano y el humo proveniente de la combustión.</p>
+     <br> 
+    </div>
+    <div>
+ <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+    <li><img src="data1/images/contaminacion_atmosferica.jpg" alt="Contaminacion Atmosferica" title="Contaminacion Atmosferica" id="wows1_0"/></li>
+    <li><a href="http://wowslider.net"><img src="data1/images/contaminacion_atmosfericaa.jpg" alt="jquery carousel" title="Contaminacion Atmosfericaa" id="wows1_1"/></a></li>
+    <li><img src="data1/images/contaminancion_atmosferica.jpg" alt="Contaminancion Atmosferica" title="Contaminancion Atmosferica" id="wows1_2"/></li>
+  </ul></div>
+  <div class="ws_bullets"><div>
+    <a href="#" title="Contaminacion Atmosferica"><span><img src="data1/tooltips/contaminacion_atmosferica.jpg" alt="Contaminacion Atmosferica"/>1</span></a>
+    <a href="#" title="Contaminacion Atmosfericaa"><span><img src="data1/tooltips/contaminacion_atmosfericaa.jpg" alt="Contaminacion Atmosfericaa"/>2</span></a>
+    <a href="#" title="Contaminancion Atmosferica"><span><img src="data1/tooltips/contaminancion_atmosferica.jpg" alt="Contaminancion Atmosferica"/>3</span></a>
+  </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">jquery slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>  
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+     </div>
+   </div>
+  </div>
+  
+  
+   <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>¡Contaminación Hídrica!</h1>
+    <div>
+     <p>Se trata del efecto de la emisión y liberación en las aguas de sustancias contaminantes. Se dificulta o altera la vida y el uso normativo, haciéndola no potable. Habitualmente esta contaminación es de origen industrial. Incluye la contaminación marítima, la cual haría referencia a la contaminación de los mares y océanos por la misma causa.</p>
+     <br> 
+    </div>
+    <div>
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+    <li><img src="data1/images/contaminacion_hidrica.jpg" alt="Contaminacion Hidrica" title="Contaminacion Hidrica" id="wows1_0"/></li>
+    <li><a href="http://wowslider.com"><img src="data1/images/contaminacin_hidrica.jpg" alt="wow slider" title="Contaminación Hidrica" id="wows1_1"/></a></li>
+    <li><img src="data1/images/contaminacinn_hidrica.jpg" alt="Contaminaciónn Hidrica" title="Contaminaciónn Hidrica" id="wows1_2"/></li>
+  </ul></div>
+  <div class="ws_bullets"><div>
+    <a href="#" title="Contaminacion Hidrica"><span><img src="data1/tooltips/contaminacion_hidrica.jpg" alt="Contaminacion Hidrica"/>1</span></a>
+    <a href="#" title="Contaminación Hidrica"><span><img src="data1/tooltips/contaminacin_hidrica.jpg" alt="Contaminación Hidrica"/>2</span></a>
+    <a href="#" title="Contaminaciónn Hidrica"><span><img src="data1/tooltips/contaminacinn_hidrica.jpg" alt="Contaminaciónn Hidrica"/>3</span></a>
+  </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">jquery slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>  
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    </div>
+   </div>
+  </div>
+  
+  
+  
+   <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>!Contaminación del Suelo!</h1>
+    <div>
+     <p>Provocada por la filtración de sustancias en el suelo, genera alteraciones físicas y químicas en éste que hacen que por ejemplo resulte inhabitable, se contaminen las aguas subterráneas o se imposibilite el crecimiento de vida en el área</p>
+     <br> 
+    </div>
+    <div>
+     <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+    <li><img src="data1/images/contaminacion_de_suelo.jpg" alt="Contaminacion de suelo" title="Contaminacion de suelo" id="wows1_0"/></li>
+    <li><a href="http://wowslider.com"><img src="data1/images/contaminacin_de_suelo.jpg" alt="wowslider" title="Contaminación de suelo" id="wows1_1"/></a></li>
+    <li><img src="data1/images/contaminacinn_de_suelo.jpg" alt="Contaminaciónn de suelo" title="Contaminaciónn de suelo" id="wows1_2"/></li>
+  </ul></div>
+  <div class="ws_bullets"><div>
+    <a href="#" title="Contaminacion de suelo"><span><img src="data1/tooltips/contaminacion_de_suelo.jpg" alt="Contaminacion de suelo"/>1</span></a>
+    <a href="#" title="Contaminación de suelo"><span><img src="data1/tooltips/contaminacin_de_suelo.jpg" alt="Contaminación de suelo"/>2</span></a>
+    <a href="#" title="Contaminaciónn de suelo"><span><img src="data1/tooltips/contaminacinn_de_suelo.jpg" alt="Contaminaciónn de suelo"/>3</span></a>
+  </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">jquery slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>  
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    </div>
+   </div>
+  </div>
+  
+  
+  
+  
+     <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>¡Contaminación Térmica!</h1>
+    <div>
+     <p>Uno de los tipos de contaminación menos conocidos, es generado por el cambio de temperatura en el entorno o en diferentes medios debido a la actividad humana.</p>
+     <br> 
+    </div>
+    <div>
+   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+    <li><img src="data1/images/contaminacion.jpg" alt="Contaminacion" title="Contaminacion" id="wows1_0"/></li>
+    <li><a href="http://wowslider.net"><img src="data1/images/contaminaciondos.jpg" alt="jquery slideshow" title="contaminaciondos" id="wows1_1"/></a></li>
+    <li><img src="data1/images/contaminacionuno.jpg" alt="contaminacionuno" title="contaminacionuno" id="wows1_2"/></li>
+  </ul></div>
+  <div class="ws_bullets"><div>
+    <a href="#" title="Contaminacion"><span><img src="data1/tooltips/contaminacion.jpg" alt="Contaminacion"/>1</span></a>
+    <a href="#" title="contaminaciondos"><span><img src="data1/tooltips/contaminaciondos.jpg" alt="contaminaciondos"/>2</span></a>
+    <a href="#" title="contaminacionuno"><span><img src="data1/tooltips/contaminacionuno.jpg" alt="contaminacionuno"/>3</span></a>
+  </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">jquery slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>  
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    </div>
+   </div>
+  </div>
+    
+    <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>¡Contaminación Lumínica!</h1>
+    <div>
+     <p>Se trata de uno de los tipos de contaminación en la que el elemento contaminante es visual. la contaminación lumínica el elemento contaminante en sí es la emisión de luz fuera de lo que sería natural, provocando problemas como la pérdida de orientación o los cambios en los biorritmos tanto de seres humanos como de otros animales.</p>
+     <br> 
+    </div>
+    <div>
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+    <li><img src="data1/images/conan.jpg" alt="conan" title="conan" id="wows1_0"/></li>
+    <li><a href="http://wowslider.com"><img src="data1/images/conan1.jpg" alt="wowslider.com" title="conan1" id="wows1_1"/></a></li>
+    <li><img src="data1/images/conan3.jpg" alt="conan3" title="conan3" id="wows1_2"/></li>
+  </ul></div>
+  <div class="ws_bullets"><div>
+    <a href="#" title="conan"><span><img src="data1/tooltips/conan.jpg" alt="conan"/>1</span></a>
+    <a href="#" title="conan1"><span><img src="data1/tooltips/conan1.jpg" alt="conan1"/>2</span></a>
+    <a href="#" title="conan3"><span><img src="data1/tooltips/conan3.jpg" alt="conan3"/>3</span></a>
+  </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">jquery slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>  
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    </div>
+   </div>
+  </div>
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/MUNDO.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Cuatro, ATM</h4>
+  </div>
+ </div>
+
+  <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Consecuencias</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>Problemas para la salud:</h2>
+    <p> La contaminación hace que las personas estemos cada vez más expuestas a padecer problemas cardiovasculares, con el grave peligro que esto entraña para nuestra salud y vida.</p>
+    <img src="imagenes/salud.jpg" width="60%" height="60%">
+     <h2>Debilitamiento de la capa de ozono:</h2> 
+<p>La capa de ozono es la que nos protege de los rayos del Sol, los cuales pueden llegar a ser mortíferos sin esta capa. la consecuencia de este debilitamiento es que cada vez nos protege menos y, por ende, cada vez tenemos una mayor temperatura en el planeta. Esto no solo hace que cada vez haya más zonas desiertas en las que es imposible vivir, sino que también hace que el hielo en los polos se deshaga y mueran muchas especies por ello. No hace falta mencionar que esto hace subir indudablemente el nivel del mar y que, de seguir así, muchas ciudades costeras se verán arrasadas, quedándose sin playas y sin zona costera.</p>
+  <img src="imagenes/debi.jpg" width="60%" height="60%">
+  <h2>La contaminación afecta al suelo y al agua:</h2>
+<p> La contaminación al medio ambiente afecta al agua y al suelo, lo que hace que cada vez haya más especies en peligro de extinción. El agua no es potable en una gran cantidad de sitios y el suelo para la siembre no tiene los nutrientes necesarios, lo que hace que cada vez se pueda cultivar menos y que el número de cosechas para nuestro sustento sea cada vez menor.</p>
+ <img src="imagenes/conta5.jpg" width="60%" height="60%">
+<h2>La contaminación afecta al clima:</h2>
+<p>Seguro que ya te has dado cuenta que los inviernos pueden ser mucho más fríos o que los veranos son mucho más calurosos, a la vez que seguro te has dado cuenta que las estaciones como la Primavera Verano y el verano pueden ser más largas y que las de temperaturas medias, son cada vez más cortas</p>
+     
+     <img src="imagenes/aci.jpg" width="60%" height="60%">
+     
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/MUNDO.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Cuatro, ATM</h4>
+  </div>
+ </div>
+
+  <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Reciclaje</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <img src="imagenes/arbol1.jpg" width="60%" height="60%">
+    <h2>El reciclaje consiste en obtener una nueva materia prima o producto, mediante un proceso fisicoquímico o mecánico, a partir de productos y materiales ya en desuso o utilizados. De esta forma, conseguimos alargar el ciclo de vida de un producto, ahorrando materiales y beneficiando al medio ambiente al generar menos residuos.El reciclaje surje no sólo para eliminar residuos, sino para hacer frente al agotamiento de los recursos naturales del planeta.
+     <a href="https://ecoinventos.com/como-reciclar/" target="_self">Mas Información</a></h2>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/reci2.jpg',1)"><img src="imagenes/reci.jpg" alt="" width="60%" height="60%" id="Image16"></a> </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/MUNDO.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Cuatro, ATM</h4>
+  </div>
+ </div>
+
+
+  <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>5 Medidas que puedes emplear para combatir la contaminación en tu comunidad</h1>  
+  </div>
+  <div data-role="content" align="center">
+     <h2>La reducción de la basura plástica y la contaminación es algo que cada día preocupa a más y más personas. Debemos tratar de reducir los residuos en todos sus tamaños y formas. La cantidad de basura que generan los países desarrollados es algo insostenible a medio plazo.</h2>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image40','','imagenes/obama.jpg',1)"><img src="imagenes/obama1.jpg" width="50%" height="50%" id="Image40"></a>
+   <div>
+    <h2>1. Traiga lo suyo propio.</h2>
+     <p>Todos sabemos que deberíamos llevar nuestra propia bolsa a la tienda de comestibles, pero ¿qué tal si llevas tu propio recipiente? Hay que fomentar el hábito de llevar un “Kit de Basura ” a todas partes, así no generamos basura cuando estamos fuera de casa.</p>
+     <h2>2. Las “tres erres” no sólo son recomendables, son obligatorias y escenciales</h2>
+     <p>“Reducir, Reutilizar, Reciclar” es clave. Por ejemplo, cambiar a una botella de agua reutilizable te ayudará a dejar de comprar botellas de plástico de un solo uso. </p>
+     <h2>3. Buscar artículos multiusos, duraderos y de tamaño gigante o familiar..</h2>
+     <p>Intenta comprar la versión más grande, que dura meses, esto ayudará a su misma vez a ahorrar nuestro dinero más tiempo</p>
+      <h2>4.Más vida en calle</h2>
+     <p>Con esto nos referimos a tomar más nuestras bicicletas para trasladarnos, aparte de ser más practicas ayudarás al medio ambiente en muchos aspectos, al igual que caminar, no está demás hasta para la salud</p>  
+     <h2>5.Cuidar agua y luz</h2>
+     <p>Para disponer de agua fresca y de electricidad, es necesario gastar energía. Con simples medidas como apagar las luces que no se ocupan, reparar filtraciones, aprovechar al máximo la luz natural o aislar apropiadamente tu hogar, puedes disminuir considerablemente el consumo de energía.</p>
+     <h2>EVITEMOS QUE NUESTRA COMUNIDAD SE VEA ASÍ...SEAMOS CONSCIENTES</h2>
+     
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/MUNDO.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Cuatro, ATM</h4>
+  </div>
+ </div>
+
+</body>
+</html>
+        
